@@ -2166,26 +2166,26 @@
       "code": "208762",
       "queue": 81,
       "createdDate": "2024-03-22",
-      "description": "GERAR CRÉDITO APLICANDO A CORREÇÃO MONETARIA.",
       "requester": "PASCOAL CARDOZO DOS SANTOS",
-      "priority": "Média",
       "status": "AGUARDANDO ANÁLISE",
       "group": "MELHORIA",
       "module": "PROCESSO ADMINISTRATIVO",
+      "description": "GERAR CRÉDITO APLICANDO A CORREÇÃO MONETARIA.",
+      "startAt": "2024-09-19",
       "level1": "FELIPE ALMEIDA",
       "level2": "ARIANE GUTIERRES",
       "plannedMinutes": 300,
       "plannedHours": 5,
       "spentHours": 0,
-      "developerId": "dev-rodrigo-villela",
+      "priority": "Média",
+      "developerId": "",
       "analystId": "ana-felipe-almeida",
       "supportId": "sup-ariane-gutierres",
-      "startAt": "2024-09-19",
       "dueAt": "",
       "notes": "",
       "createdAt": "2024-03-22T00:00:00.000Z",
-      "updatedAt": "2026-06-25T00:00:00.000Z"
+      "updatedAt": "2026-06-25T13:31:16.917Z"
     }
   ],
-  "publishedAt": "2026-06-25T13:19:34.735Z"
+  "publishedAt": "2026-06-25T13:31:20.741Z"
 }
