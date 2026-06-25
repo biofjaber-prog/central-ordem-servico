@@ -29,11 +29,6 @@
       "id": "dev-carlos-eduardo-oliveira-de-souza",
       "name": "CARLOS EDUARDO",
       "color": "#2f8f5b"
-    },
-    {
-      "id": "dev-rodrigo-villela",
-      "name": "RODRIGO VILLELA",
-      "color": "#48a868"
     }
   ],
   "analysts": [
@@ -2184,8 +2179,8 @@
       "dueAt": "",
       "notes": "",
       "createdAt": "2024-03-22T00:00:00.000Z",
-      "updatedAt": "2026-06-25T13:31:16.917Z"
+      "updatedAt": "2026-06-25T13:32:07.494Z"
     }
   ],
-  "publishedAt": "2026-06-25T13:31:20.741Z"
+  "publishedAt": "2026-06-25T13:32:28.181Z"
 }
