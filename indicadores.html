@@ -55,7 +55,7 @@ body:before{content:"";position:fixed;inset:0;z-index:-1;background-image:linear
 </style>
 <style>
   /* Backlog compacto por desenvolvedor */
-  .dev-board{padding:16px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(340px,100%),1fr));gap:14px;align-items:start}
+  .dev-board{padding:16px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:14px;align-items:start}
   .dev-lane{min-width:0;border:1px solid #d7e6ef;border-radius:16px;background:#fff;overflow:hidden;box-shadow:0 8px 20px rgba(2,24,43,.05)}
   .dev-head{padding:15px 16px 12px;display:grid;gap:12px;border-bottom:1px solid #e5eff4;background:linear-gradient(135deg,#fff,#f6fafc)}
   .dev-person{min-width:0}
@@ -67,7 +67,7 @@ body:before{content:"";position:fixed;inset:0;z-index:-1;background-image:linear
   .dev-overview{padding:10px 14px;display:flex;gap:6px;flex-wrap:wrap;border-bottom:1px solid #e5eff4}
   .stage-chip{display:inline-flex;align-items:center;gap:6px;border:1px solid #dce9f1;border-left:4px solid var(--accent);border-radius:999px;padding:5px 8px;background:#f9fcfd;color:#31516d;font-size:10px;font-weight:900}
   .stage-chip b{color:#0f3048}
-  .dev-stage-list{padding:10px;display:grid;gap:7px;max-height:520px;overflow:auto;overscroll-behavior:contain}
+  .dev-stage-list{padding:10px;display:grid;gap:7px;max-height:440px;overflow:auto;overscroll-behavior:contain}
   .dev-stage{border:1px solid #deebf2;border-radius:11px;background:#fbfdfe;overflow:hidden}
   .dev-stage summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:8px;padding:9px 10px;border-left:4px solid var(--accent);font-size:10px;font-weight:950;color:#173c57;text-transform:uppercase}
   .dev-stage summary::-webkit-details-marker{display:none}
@@ -108,7 +108,7 @@ body:before{content:"";position:fixed;inset:0;z-index:-1;background-image:linear
   <section class="kpi-grid" id="kpis"></section>
   <section class="section active" id="backlogSection">
     <section class="panel">
-      <div class="panel-head"><div><span class="eyebrow">Backlog do desenvolvimento</span><h2>Visão compacta da fila por desenvolvedor</h2></div><span class="muted">Desenvolvedores lado a lado · clique em uma etapa para ver as OS</span></div>
+      <div class="panel-head"><div><span class="eyebrow">Backlog do desenvolvimento</span><h2>Visão compacta da fila por desenvolvedor</h2></div></div>
       <div class="dev-board" id="devBoard"></div>
     </section>
   </section>
